@@ -4,8 +4,12 @@
   "description": "cursor unik",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "deploy": "gh-pages -d dist"
   },
   "author": "danangtryn",
-  "license": "MIT"
+  "license": "MIT",
+  "homepage": "https://onedien.github.io/cursor",
+  "dependencies": {
+    "gh-pages": "^2.0.1"
+  }
 }
